@@ -1,6 +1,6 @@
-text = "hello world, world!"
+text = "hello , hello my name is Nishchay"
 old= "world"
-new  = "mom"
+new  = "hi"
 
 
 result = ""
