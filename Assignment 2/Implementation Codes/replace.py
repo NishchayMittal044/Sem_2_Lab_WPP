@@ -1,5 +1,5 @@
 text = "hello , hello my name is Nishchay"
-old= "world"
+old= "hello"
 new  = "hi"
 
 
