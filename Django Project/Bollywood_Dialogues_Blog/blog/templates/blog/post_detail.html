@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1><a href="/">Kya Kehna !!</a></h1>
+    </header>
+    <article>
+        <time>Published: {{ post.published_date }}</time>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+    <footer>
+        <div class="footer-link">
+            <a href="/">Back to the homepage</a>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
