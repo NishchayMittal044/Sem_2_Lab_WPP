@@ -3,4 +3,4 @@ Name = Nishchay Deepak Mittal
 <br>
 Admn No. = U24AI044
 <br>
-This repository contains WPP lab question
+This repository contains WPP lab question and individual django project
