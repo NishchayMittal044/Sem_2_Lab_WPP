@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Amazon Ember;
+    src: url(AmazonEmber_Bd.ttf);
+}
+body {
+    font-family: Amazon Ember;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232f3e;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+
+.location, .account, .orders, .cart, .options {
+    font-family: Amazon Ember;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.search {
+    flex-grow: 1;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+nav {
+    background-color: #37475a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    color: white;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin: 20px;
+}
+
+.category {
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.item {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.signin {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.signin button {
+    background-color: #f0c14b;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
